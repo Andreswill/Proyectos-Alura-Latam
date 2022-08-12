@@ -1,0 +1,308 @@
+
+/*DISEÑO RESPONSIVE GENERAL NAVEGACIÓN Y LOGO*/
+@media screen and (max-width: 630px) {
+    nav{
+        position: absolute;
+        top: 160px;
+        right: 100px;
+    }
+    nav li{
+        display: inline;
+    }
+    
+    nav li a{
+        font-size: 20px;
+        margin-left: 15px;
+    }
+    .caja h1 img{
+        width: 20%;
+        position: absolute;
+        top: 100;
+        right: 200px;
+    }
+    header{
+        height: 200px;
+    }
+}
+@media screen and (max-width: 500px) {
+    nav{
+        position: absolute;
+        top: 110px;
+        right: 200px;
+    }
+    nav li a{
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .caja h1 img{
+        width: 20%;
+        position: absolute;
+        top: 100;
+        right: 150px;
+    }
+}
+@media screen and (max-width: 340px) {
+    nav{
+        position: absolute;
+        top: 110px;
+        right: 100px;
+    }
+    nav li a{
+        font-size: 14px;
+        line-height: 30px;
+    }
+    .caja h1 img{
+        width: 40%;
+        position: absolute;
+        top: 90;
+        right: 90px;
+    }
+}
+
+/*------------------------DISEÑO RESPONSIVE PARA LA PAGINA INDEX-------------------------------*/
+@media screen and (max-width: 1128px) {
+    .info p{
+        word-spacing: 1px;
+        line-height: 15px;
+        font-size: 80%;
+    }
+    
+}
+@media screen and (max-width: 1000px) {
+    .info{
+        width: 30%;
+    }
+    .principal{
+        height: 600px;
+    }
+
+}
+@media screen and (max-width: 850px) {
+    .mapa iframe{
+        height: 200px;
+
+    }
+    .video iframe{
+        width: 80%;
+        height: 200px;
+    }
+    .mapa h2{
+        font-size: 20px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 850px) {
+    .items{
+        font-size: 13px;
+    }
+    .datos-adicionales .mapa{
+        width: 40%;
+        margin-top: 50px;
+        margin-right: 30px;
+    }
+    .video{
+        width: 50%;
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .video iframe{
+        width: 60%;
+        height: 200px;
+    }
+
+    .datos-adicionales .mapa{
+        margin-right: 10px;
+    }
+    .video{
+        margin-left: 10px;
+    }
+    .mapa iframe{
+        height: 150px;
+
+    }
+    .titulo{
+        font-size: 20px;
+        width: 300px;
+        padding: 10px;
+    }
+    .items{
+        font-size: 10px;
+    }
+
+}
+@media screen and (max-width: 500px) {
+    .titulo{
+        font-size: 15px;
+        width: 240px;
+        padding: 10px;
+    }
+    .info p{
+        word-spacing: 0px;
+        font-size: 65%;
+    }
+    .principal{
+        height: 700px;
+    }
+    .info{
+        width: 50%;
+        height: 140px;
+    }
+    .items{
+        font-size: 10px;
+    }
+    .lista{
+        width: 35%;
+        margin-right: 7%;
+        line-height: 40px;
+       
+    }
+    .video{
+        width: 100%;
+        margin-left: 10px;
+    }
+    .video iframe{
+        width: 100%;
+        height: 200px;
+    }
+    .datos-adicionales .mapa{
+        width: 100%;
+        margin-right: 10px;
+        
+       
+    }
+    .mapa iframe{
+        width: 100%;
+        height: 150px;
+        float: none;
+    
+
+    }
+
+}
+@media screen and (max-width: 340px) {
+    .items{
+        font-size: 7px;
+    }
+    .lista{
+        width: 40%;
+        margin-right: 20px;
+        line-height: 25px;
+       
+    }
+    .info p{
+        word-spacing: 0px;
+        font-size: 50%;
+    }
+
+}
+/*--------------------------------DISEÑO RSPONSIVE PAGINA PRODUCTOS-----------------------------*/
+@media screen and (max-width: 1340px) {
+    .productos li{
+        width: 30%;
+        height: 370px;
+    }
+    .productos h2{
+        font-size: 25px;
+    }
+    .productos li img{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 1155px) {
+    .descripcion-productos{
+        font-size: 90%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .productos h2{
+        font-size: 23px;
+    }
+}
+@media screen and (max-width:930px) {
+    .productos li{
+        width: 30%;
+        height: 300px;
+    }
+    .precio-productos{
+        font-size: 100%;
+    }
+    .productos h2{
+        font-size: 100%;
+    }
+}
+@media screen and (max-width:880px) {
+    .productos li{
+        width: 25%;
+        height: 300px;
+    }
+}
+@media screen and (max-width:730px) {
+    .productos li{
+        width: 50%;
+        height: 400px;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width:500px) {
+    .productos li{
+        width: 50%;
+        height: 300px;
+        margin-bottom: 30px;
+    }
+    .descripcion-productos{
+        font-size: 50%;
+    }
+
+}
+@media screen and (max-width:400px) {
+    .productos li{
+        width: 60%;
+        height: 250px;
+        margin-bottom: 30px;
+        margin-right: 50px;
+    }
+}
+/*--------------------------------DISEÑO RESPONSIVE PAGINA CONTACTO----------------------------------------------*/
+@media screen and (max-width:550px) {
+    form .input-padron{
+        width: 50%;
+    }
+    form textarea{
+        width: 70%;
+        height: 60px;
+    }
+    form label{
+        font-size: 13px;
+    }
+    form input[type="submit"]{
+        width: 20%;
+        font-size: 13px;
+    }
+    legend{
+        font-size: 12px;
+    }
+
+}
+@media screen and (max-width:400px) {
+    form textarea{
+        width: 50%;
+        height: 50px;
+    }
+    form label{
+        font-size: 11px;
+    }
+
+}
+
+
+
+/*---------------------------DISEÑO RESPONSIVE GENERAL FOOTER---------------------------------------------------*/
+@media screen and (max-width: 600px) {
+    footer p{
+        font-size: 13px;
+    }
+    footer img{
+        width: 20%;
+    }
+}
